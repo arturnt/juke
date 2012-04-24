@@ -1,0 +1,597 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'connect-mongodb' ]
+info using npm@1.0.99
+info using node@v0.5.10-pre
+verbose config file /home/artur/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly testEngine { name: 'utml',
+silly testEngine   version: '0.2.0',
+silly testEngine   description: 'Express compliant templating for underscore.js',
+silly testEngine   keywords: [ 'underscore', 'express', 'template', 'templating', 'engine' ],
+silly testEngine   files: [ 'utml.js' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Mike Frey',
+silly testEngine      email: 'frey.mike@gmail.com',
+silly testEngine      url: 'http://freyday.com' },
+silly testEngine   main: './utml.js',
+silly testEngine   dependencies: { underscore: '>=1.1.3' },
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/mikefrey/utml.git' },
+silly testEngine   _id: 'utml@0.2.0',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/utml/package.json
+verbose loadDefaults utml@0.2.0
+WARN mongodb@0.9.6-21 package.json: bugs['web'] should probably be bugs['url']
+silly testEngine { name: 'mongodb',
+silly testEngine   description: 'A node.js driver for MongoDB',
+silly testEngine   keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+silly testEngine   version: '0.9.6-21',
+silly testEngine   author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Aaron Heckmann' },
+silly testEngine      { name: 'Christoph Pojer' },
+silly testEngine      { name: 'Pau Ramon Revilla' },
+silly testEngine      { name: 'Nathan White' },
+silly testEngine      { name: 'Emmerman' },
+silly testEngine      { name: 'Seth LaForge' },
+silly testEngine      { name: 'Boris Filipov' },
+silly testEngine      { name: 'Stefan Schärmeli' },
+silly testEngine      { name: 'Tedde Lundgren' },
+silly testEngine      { name: 'renctan' },
+silly testEngine      { name: 'Sergey Ukustov' },
+silly testEngine      { name: 'Ciaran Jessup' },
+silly testEngine      { name: 'kuno' },
+silly testEngine      { name: 'srimonti' },
+silly testEngine      { name: 'Erik Abele' },
+silly testEngine      { name: 'Pratik Daga' },
+silly testEngine      { name: 'Slobodan Utvic' },
+silly testEngine      { name: 'Kristina Chodorow' },
+silly testEngine      { name: 'Yonathan Randolph' },
+silly testEngine      { name: 'Brian Noguchi' },
+silly testEngine      { name: 'Sam Epstein' },
+silly testEngine      { name: 'James Harrison Fisher' },
+silly testEngine      { name: 'Vladimir Dronnikov' },
+silly testEngine      { name: 'Ben Hockey' },
+silly testEngine      { name: 'Henrik Johansson' },
+silly testEngine      { name: 'Simon Weare' },
+silly testEngine      { name: 'Alex Gorbatchev' },
+silly testEngine      { name: 'Shimon Doodkin' },
+silly testEngine      { name: 'Kyle Mueller' },
+silly testEngine      { name: 'Eran Hammer-Lahav' },
+silly testEngine      { name: 'Marcin Ciszak' },
+silly testEngine      { name: 'François de Metz' },
+silly testEngine      { name: 'Vinay Pulim' },
+silly testEngine      { name: 'nstielau' },
+silly testEngine      { name: 'Adam Wiggins' },
+silly testEngine      { name: 'entrinzikyl' },
+silly testEngine      { name: 'Jeremy Selier' },
+silly testEngine      { name: 'Ian Millington' },
+silly testEngine      { name: 'Public Keating' },
+silly testEngine      { name: 'andrewjstone' },
+silly testEngine      { name: 'Christopher Stott' },
+silly testEngine      { name: 'Corey Jewett' },
+silly testEngine      { name: 'brettkiefer' },
+silly testEngine      { name: 'Rob Holland' },
+silly testEngine      { name: 'Senmiao Liu' },
+silly testEngine      { name: 'heroic' },
+silly testEngine      { name: 'gitfy' },
+silly testEngine      { name: 'Andrew Stone' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'node-mongodb-native@googlegroups.com',
+silly testEngine      url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly testEngine   os: [ 'linux', 'darwin', 'freebsd' ],
+silly testEngine   config: { native: false },
+silly testEngine   main: './lib/mongodb/index',
+silly testEngine   directories: { lib: './lib/mongodb' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   scripts: { install: 'bash ./install.sh' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'Apache License, Version 2.0',
+silly testEngine        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly testEngine   _id: 'mongodb@0.9.6-21',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@0.9.6-21
+silly testEngine { name: 'connect',
+silly testEngine   description: 'High performance middleware framework',
+silly testEngine   keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly testEngine   version: '0.5.10',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca',
+silly testEngine      url: 'http://tjholowaychuk.com' },
+silly testEngine   dependencies: { qs: '>= 0.0.6' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.2.5' },
+silly testEngine   _id: 'connect@0.5.10',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/connect/package.json
+verbose loadDefaults connect@0.5.10
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '1.0.7',
+silly testEngine   author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: { connect: '>= 0.5.0', qs: '>= 0.0.2' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   directories: { lib: './lib/express' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   _id: 'express@1.0.7',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/express/package.json
+verbose loadDefaults express@1.0.7
+silly testEngine { name: 'socket.io',
+silly testEngine   version: '0.8.5',
+silly testEngine   description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly testEngine   homepage: 'http://socket.io',
+silly testEngine   keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly testEngine   author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly testEngine      { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly testEngine      { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly testEngine      { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/socket.io.git' },
+silly testEngine   dependencies: 
+silly testEngine    { 'socket.io-client': '0.8.5',
+silly testEngine      policyfile: '0.0.4',
+silly testEngine      redis: '0.6.6' },
+silly testEngine   devDependencies: { expresso: '0.7.7', should: '0.0.4', assertvanish: '0.0.3-1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'socket.io@0.8.5',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/socket.io/package.json
+verbose loadDefaults socket.io@0.8.5
+silly testEngine { name: 'supervisor',
+silly testEngine   version: '0.1.3',
+silly testEngine   description: 'A supervisor program for running nodejs programs',
+silly testEngine   author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Brian Ehmann', email: 'behmann@gmail.com' },
+silly testEngine      { name: 'David Taylor', email: 'david@zensatellite.com' } ],
+silly testEngine   main: 'lib/supervisor.js',
+silly testEngine   bin: 
+silly testEngine    { 'node-supervisor': 'lib/cli-wrapper.js',
+silly testEngine      supervisor: 'lib/cli-wrapper.js' },
+silly testEngine   engines: { node: '~0.2.3 || 0.3 || 0.4 || 0.5' },
+silly testEngine   preferGlobal: true,
+silly testEngine   _id: 'supervisor@0.1.3',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/supervisor/package.json
+verbose loadDefaults supervisor@0.1.3
+silly testEngine { name: 'mongojs',
+silly testEngine   description: 'a simple mongo module that implements the mongo api',
+silly testEngine   keywords: [ 'mongo', 'db', 'mongodb' ],
+silly testEngine   version: '0.2.5',
+silly testEngine   homepage: 'https://github.com/gett/mongojs',
+silly testEngine   author: { name: 'Ge.tt', email: 'hello@ge.tt' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Mathias Buus Madsen', email: 'm@ge.tt' },
+silly testEngine      { name: 'Ian Jorgensen' } ],
+silly testEngine   main: './index.js',
+silly testEngine   dependencies: { common: '>=0.1.0', mongodb: '>=0.9.6' },
+silly testEngine   _id: 'mongojs@0.2.5',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/mongojs/package.json
+verbose loadDefaults mongojs@0.2.5
+WARN express-session-mongo@0.0.1 package.json: bugs['web'] should probably be bugs['url']
+silly testEngine { name: 'express-session-mongo',
+silly testEngine   version: '0.0.1',
+silly testEngine   description: 'MongoDB Session Store for ExpressJS',
+silly testEngine   author: { name: 'Dav Glass', email: 'davglass@gmail.com' },
+silly testEngine   bugs: { url: 'http://github.com/davglass/express-session-mongo/issues' },
+silly testEngine   os: [ 'darwin', 'linux' ],
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   directories: { lib: 'lib' },
+silly testEngine   main: './lib/express-session-mongo',
+silly testEngine   dependencies: { express: '>=1.0.0rc4', connect: '>=0.2.4', mongodb: '>=0.7.9' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'BSD',
+silly testEngine        url: 'http://github.com/davglass/express-session-mongo/blob/master/LICENSE' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/davglass/express-session-mongo.git' },
+silly testEngine   _id: 'express-session-mongo@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/node_modules/express-session-mongo/package.json
+verbose loadDefaults express-session-mongo@0.0.1
+verbose into /home/artur [ 'connect-mongodb' ]
+verbose cache add connect-mongodb
+verbose cache add [ 'connect-mongodb', null ]
+silly cache add: name, spec, args [ undefined, 'connect-mongodb', [ 'connect-mongodb', null ] ]
+verbose parsed url { pathname: 'connect-mongodb', href: 'connect-mongodb' }
+info addNamed [ 'connect-mongodb', '' ]
+verbose addNamed [ null, '' ]
+verbose GET connect-mongodb
+verbose raw, before any munging connect-mongodb
+verbose url resolving [ 'https://registry.npmjs.org/', './connect-mongodb' ]
+verbose url resolved https://registry.npmjs.org/connect-mongodb
+verbose etag "B60NR2P5ED2VXCXJR6T30PJS2"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"B60NR2P5ED2VXCXJR6T30PJS2"',
+silly get cb     date: 'Sat, 15 Oct 2011 11:33:47 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect-mongodb from cache
+verbose GET connect-mongodb/1.0.0
+verbose raw, before any munging connect-mongodb/1.0.0
+verbose url resolving [ 'https://registry.npmjs.org/', './connect-mongodb/1.0.0' ]
+verbose url resolved https://registry.npmjs.org/connect-mongodb/1.0.0
+verbose etag "B60NR2P5ED2VXCXJR6T30PJS2"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"B60NR2P5ED2VXCXJR6T30PJS2"',
+silly get cb     date: 'Sat, 15 Oct 2011 11:33:48 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect-mongodb/1.0.0 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: 'd323a84395fec7b5b83937174e9ad0ec8720b08a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect-mongodb/-/connect-mongodb-1.0.0.tgz' } ]
+silly testEngine { name: 'connect-mongodb',
+silly testEngine   description: 'mongodb session store for connect',
+silly testEngine   version: '1.0.0',
+silly testEngine   author: { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Pau Ramon', email: 'masylum@gmail.com' },
+silly testEngine      { name: 'ramv' } ],
+silly testEngine   dependencies: { mongodb: '0.9.6-7', connect: '1.5.1' },
+silly testEngine   devDependencies: { testosterone: '1.2.0', gently: '0.9.1', funk: '1.5.0' },
+silly testEngine   main: './lib/connect-mongodb',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'connect-mongodb@1.0.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/artur/.npm/connect-mongodb/1.0.0/package/package.json
+verbose loadDefaults connect-mongodb@1.0.0
+silly resolved [ { name: 'connect-mongodb',
+silly resolved     description: 'mongodb session store for connect',
+silly resolved     version: '1.0.0',
+silly resolved     author: { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Pau Ramon', email: 'masylum@gmail.com' },
+silly resolved        { name: 'ramv' } ],
+silly resolved     dependencies: { mongodb: '0.9.6-7', connect: '1.5.1' },
+silly resolved     devDependencies: { testosterone: '1.2.0', gently: '0.9.1', funk: '1.5.0' },
+silly resolved     main: './lib/connect-mongodb',
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'connect-mongodb@1.0.0',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.99',
+silly resolved     _nodeVersion: 'v0.5.10-pre',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into /home/artur connect-mongodb@1.0.0
+info installOne connect-mongodb@1.0.0
+info unbuild /home/artur/node_modules/connect-mongodb
+verbose from cache /home/artur/.npm/connect-mongodb/1.0.0/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/artur/node_modules/___connect-mongodb.npm'
+verbose mkdir done: /home/artur/node_modules/___connect-mongodb.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/artur/node_modules/connect-mongodb
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/artur/.npm/connect-mongodb/1.0.0/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/artur/node_modules/___connect-mongodb.npm' ]
+silly tar out package/Makefile
+silly tar out package/.gitignore
+silly tar out package/index.js
+silly tar out package/Readme.md
+silly tar out package/package.json
+silly tar out package/lib/connect-mongodb.js
+silly tar out package/tests/core.js
+silly tar out package/example/index.js
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/Makefile
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/.gitignore
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/index.js
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/Readme.md
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/package.json
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/lib
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/lib/connect-mongodb.js
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/tests
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/tests/core.js
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/example
+silly asyncMap in gTP /home/artur/node_modules/___connect-mongodb.npm/package/example/index.js
+verbose gunzed /home/artur/node_modules/___connect-mongodb.npm/package
+verbose rm'ed /home/artur/node_modules/connect-mongodb
+verbose renamed [ '/home/artur/node_modules/___connect-mongodb.npm/package',
+verbose renamed   '/home/artur/node_modules/connect-mongodb' ]
+silly testEngine { name: 'connect-mongodb',
+silly testEngine   description: 'mongodb session store for connect',
+silly testEngine   version: '1.0.0',
+silly testEngine   author: { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Pau Ramon', email: 'masylum@gmail.com' },
+silly testEngine      { name: 'ramv' } ],
+silly testEngine   dependencies: { mongodb: '0.9.6-7', connect: '1.5.1' },
+silly testEngine   devDependencies: { testosterone: '1.2.0', gently: '0.9.1', funk: '1.5.0' },
+silly testEngine   main: './lib/connect-mongodb',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'connect-mongodb@1.0.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/artur/node_modules/connect-mongodb/package.json
+verbose loadDefaults connect-mongodb@1.0.0
+info preinstall connect-mongodb@1.0.0
+verbose from cache /home/artur/node_modules/connect-mongodb/package.json
+verbose into /home/artur/node_modules/connect-mongodb [ 'mongodb@0.9.6-7', 'connect@1.5.1' ]
+verbose cache add mongodb@0.9.6-7
+verbose cache add [ 'mongodb@0.9.6-7', null ]
+silly cache add: name, spec, args [ undefined, 'mongodb@0.9.6-7', [ 'mongodb@0.9.6-7', null ] ]
+verbose parsed url { pathname: 'mongodb@0.9.6-7', href: 'mongodb@0.9.6-7' }
+silly cache add: name, spec, args [ 'mongodb', '0.9.6-7', [ 'mongodb', '0.9.6-7' ] ]
+verbose parsed url { pathname: '0.9.6-7', href: '0.9.6-7' }
+info addNamed [ 'mongodb', '0.9.6-7' ]
+verbose addNamed [ '0.9.6-7', '0.9.6-7' ]
+verbose cache add connect@1.5.1
+verbose cache add [ 'connect@1.5.1', null ]
+silly cache add: name, spec, args [ undefined, 'connect@1.5.1', [ 'connect@1.5.1', null ] ]
+verbose parsed url { pathname: 'connect@1.5.1', href: 'connect@1.5.1' }
+silly cache add: name, spec, args [ 'connect', '1.5.1', [ 'connect', '1.5.1' ] ]
+verbose parsed url { pathname: '1.5.1', href: '1.5.1' }
+info addNamed [ 'connect', '1.5.1' ]
+verbose addNamed [ '1.5.1', '1.5.1' ]
+verbose GET mongodb/0.9.6-7
+verbose raw, before any munging mongodb/0.9.6-7
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/0.9.6-7' ]
+verbose url resolved https://registry.npmjs.org/mongodb/0.9.6-7
+verbose etag "5QAPCR8V3REAZVLE8S0ER4GQU"
+verbose GET connect/1.5.1
+verbose raw, before any munging connect/1.5.1
+verbose url resolving [ 'https://registry.npmjs.org/', './connect/1.5.1' ]
+verbose url resolved https://registry.npmjs.org/connect/1.5.1
+verbose etag "5T9XFLGEAAQJ5LJP2XHYNBBST"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"5QAPCR8V3REAZVLE8S0ER4GQU"',
+silly get cb     date: 'Sat, 15 Oct 2011 11:33:49 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mongodb/0.9.6-7 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '504d45a25b9fb67aa5dd359b6809e5df0e44d6bf',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-0.9.6-7.tgz' } ]
+WARN mongodb@0.9.6-7 package.json: bugs['web'] should probably be bugs['url']
+silly testEngine { name: 'mongodb',
+silly testEngine   description: 'A node.js driver for MongoDB',
+silly testEngine   version: '0.9.6-7',
+silly testEngine   author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Nathan White', email: 'nw@nwhite.net' },
+silly testEngine      { name: 'Adam Wiggins', email: 'adam@heroku.com' },
+silly testEngine      { name: 'Ian Millington', email: 'idmillington@googlemail.com' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Christoph Pojer' },
+silly testEngine      { name: 'Erik Abele' },
+silly testEngine      { name: 'Henrik Johansson', email: 'dahankzter@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'node-mongodb-native@googlegroups.com',
+silly testEngine      url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly testEngine   os: [ 'linux', 'darwin', 'freebsd' ],
+silly testEngine   config: { native: false },
+silly testEngine   main: './lib/mongodb/index',
+silly testEngine   directories: { lib: './lib/mongodb' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   scripts: { install: 'bash ./install.sh' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'Apache License, Version 2.0',
+silly testEngine        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly testEngine   _id: 'mongodb@0.9.6-7',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/.npm/mongodb/0.9.6-7/package/package.json
+verbose loadDefaults mongodb@0.9.6-7
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"5T9XFLGEAAQJ5LJP2XHYNBBST"',
+silly get cb     date: 'Sat, 15 Oct 2011 11:33:49 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect/1.5.1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '1061dbf18f5f4a00f6da52a0c9eab11e70620bfc',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-1.5.1.tgz' } ]
+silly testEngine { name: 'connect',
+silly testEngine   version: '1.5.1',
+silly testEngine   description: 'High performance middleware framework',
+silly testEngine   keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca',
+silly testEngine      url: 'http://tjholowaychuk.com' },
+silly testEngine   dependencies: { qs: '>= 0.0.6', mime: '>= 0.0.1' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.7.6',
+silly testEngine      koala: '0.1.2',
+silly testEngine      less: '1.1.1',
+silly testEngine      sass: '0.5.0',
+silly testEngine      markdown: '0.2.1',
+silly testEngine      ejs: '0.4.3',
+silly testEngine      should: '0.2.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _id: 'connect@1.5.1',
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.99',
+silly testEngine   _nodeVersion: 'v0.5.10-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/artur/.npm/connect/1.5.1/package/package.json
+verbose loadDefaults connect@1.5.1
+silly resolved [ { name: 'mongodb',
+silly resolved     description: 'A node.js driver for MongoDB',
+silly resolved     version: '0.9.6-7',
+silly resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Nathan White', email: 'nw@nwhite.net' },
+silly resolved        { name: 'Adam Wiggins', email: 'adam@heroku.com' },
+silly resolved        { name: 'Ian Millington', email: 'idmillington@googlemail.com' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Christoph Pojer' },
+silly resolved        { name: 'Erik Abele' },
+silly resolved        { name: 'Henrik Johansson', email: 'dahankzter@gmail.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'node-mongodb-native@googlegroups.com',
+silly resolved        url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly resolved     os: [ 'linux', 'darwin', 'freebsd' ],
+silly resolved     config: { native: false },
+silly resolved     main: './lib/mongodb/index',
+silly resolved     directories: { lib: './lib/mongodb' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     scripts: { install: 'bash ./install.sh' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'Apache License, Version 2.0',
+silly resolved          url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly resolved     _id: 'mongodb@0.9.6-7',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.99',
+silly resolved     _nodeVersion: 'v0.5.10-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'connect',
+silly resolved     version: '1.5.1',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: { qs: '>= 0.0.6', mime: '>= 0.0.1' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.7.6',
+silly resolved        koala: '0.1.2',
+silly resolved        less: '1.1.1',
+silly resolved        sass: '0.5.0',
+silly resolved        markdown: '0.2.1',
+silly resolved        ejs: '0.4.3',
+silly resolved        should: '0.2.1' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _id: 'connect@1.5.1',
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.99',
+silly resolved     _nodeVersion: 'v0.5.10-pre',
+silly resolved     _defaultsLoaded: true } ]
+info into /home/artur/node_modules/connect-mongodb mongodb@0.9.6-7
+info into /home/artur/node_modules/connect-mongodb connect@1.5.1
+info installOne mongodb@0.9.6-7
+info installOne connect@1.5.1
+verbose installOne cb connect@1.5.1
+verbose about to build /home/artur/node_modules/connect-mongodb
+ERR! error installing connect-mongodb@1.0.0 Error: Unsupported
+ERR! error installing connect-mongodb@1.0.0     at checkEngine (/usr/local/lib/node_modules/npm/lib/install.js:493:14)
+ERR! error installing connect-mongodb@1.0.0     at Array.0 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+ERR! error installing connect-mongodb@1.0.0     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:13)
+ERR! error installing connect-mongodb@1.0.0     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:4)
+ERR! error installing connect-mongodb@1.0.0     at installOne_ (/usr/local/lib/node_modules/npm/lib/install.js:471:3)
+ERR! error installing connect-mongodb@1.0.0     at installOne (/usr/local/lib/node_modules/npm/lib/install.js:411:3)
+ERR! error installing connect-mongodb@1.0.0     at /usr/local/lib/node_modules/npm/lib/install.js:347:9
+ERR! error installing connect-mongodb@1.0.0     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:35
+ERR! error installing connect-mongodb@1.0.0     at Array.forEach (native)
+ERR! error installing connect-mongodb@1.0.0     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:11
+info unbuild /home/artur/node_modules/connect-mongodb
+verbose from cache /home/artur/node_modules/connect-mongodb/package.json
+info preuninstall connect-mongodb@1.0.0
+info unbuild /home/artur/node_modules/connect-mongodb/node_modules/mongodb
+info uninstall connect-mongodb@1.0.0
+verbose from cache /home/artur/.npm/mongodb/0.9.6-7/package/package.json
+verbose unbuild connect-mongodb@1.0.0 [ false,
+verbose unbuild connect-mongodb@1.0.0   '/usr/local/lib/node_modules',
+verbose unbuild connect-mongodb@1.0.0   '/home/artur/node_modules' ]
+info postuninstall connect-mongodb@1.0.0
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/artur/node_modules/connect-mongodb/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/artur/node_modules/connect-mongodb/node_modules/___mongodb.npm'
+verbose mkdir done: /home/artur/node_modules/connect-mongodb/node_modules/___mongodb.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/artur/node_modules/connect-mongodb/node_modules/mongodb
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/artur/.npm/mongodb/0.9.6-7/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/artur/node_modules/connect-mongodb/node_modules/___mongodb.npm' ]
+ERR! error rolling back connect-mongodb@1.0.0 Error: UNKNOWN, Unknown error '/home/artur/node_modules/connect-mongodb'
+verbose installOne cb connect-mongodb@1.0.0
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: connect@1.5.1
+ERR! Required: {"node":">= 0.4.1 < 0.5.0"}
+ERR! Actual:   {"npm":"1.0.99","node":"0.5.10-pre"}
+ERR! 
+ERR! System Linux 2.6.32-22-generic
+ERR! command "node" "/usr/local/bin/npm" "install" "connect-mongodb"
+ERR! cwd /home/artur/msic
+ERR! node -v v0.5.10-pre
+ERR! npm -v 1.0.99
+ERR! code ENOTSUP
+verbose exit [ 1, true ]
